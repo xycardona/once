@@ -1,0 +1,5 @@
+name: Build
+runs-on: debian11
+steps:
+- name: Checkout repo
+  uses: actions/checkout@v2
